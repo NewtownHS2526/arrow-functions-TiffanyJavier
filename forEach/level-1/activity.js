@@ -119,10 +119,14 @@ Write your solution using:
 const exercise1Array = [1, 2, 3, 4, 5];
 
 // Your solution here (one-line arrow function):
-// exercise1Array.forEach(
+console.log("Example 1 - One-Line:");
+exercise1Array.forEach(n => console.log(n));
 
 // Your solution here (regular arrow function):
-// exercise1Array.forEach((
+console.log("Example 1 - Regular:");
+exercise1Array.forEach((n) => {
+  console.log(n);
+});
 
 // Expected output: 2, 4, 6, 8, 10 (each on a new line)
 
@@ -140,10 +144,14 @@ Write your solution using:
 const exercise2Array = ["apple", "banana", "orange"];
 
 // Your solution here (one-line arrow function):
-// exercise2Array.forEach(
+console.log("Example 2 - One-line:");
+exercise2Array.forEach(name => console.log(`Hello, ${name}!`));
 
 // Your solution here (regular arrow function):
-// exercise2Array.forEach((
+console.log("Example 2 - Regular:");
+exercise2Array.forEach((name) => {
+console.log(`Hello, ${name}!`);
+});
 
 // Expected output: "APPLE", "BANANA", "ORANGE" (each on a new line)
 
@@ -162,10 +170,14 @@ const exercise3Array = [5, 10, 15, 20];
 let exercise3Sum = 0;
 
 // Your solution here (one-line arrow function):
-// exercise3Array.forEach(
+exercise3Array.forEach(n => sum += n);
+console.log("Example 3 - One-line sum:", sum);
 
 // Your solution here (regular arrow function):
-// exercise3Array.forEach((
+exercise3Array.forEach((n) => {
+  sum += n;
+});
+console.log("Example 3 - Regular sum:", sum);
 
 // Uncomment to test:
 // console.log("Exercise 3 - Sum:", exercise3Sum);
@@ -185,10 +197,14 @@ Write your solution using:
 const exercise4Array = ["red", "green", "blue"];
 
 // Your solution here (one-line arrow function):
-// exercise4Array.forEach(
+console.log("Example 4 - One-line:");
+exercise4Array.forEach(name => console.log(`Hello, ${name}!`));
 
 // Your solution here (regular arrow function):
-// exercise4Array.forEach((
+console.log("Example 4 - Regular:");
+exercise4Array.forEach((name) => {
+  console.log(`Hello, ${name}!`);
+});
 
 // Expected output: "Color: red", "Color: green", "Color: blue" (each on a new line)
 
@@ -206,10 +222,14 @@ Write your solution using:
 const exercise5Array = [2, 4, 6, 8];
 
 // Your solution here (one-line arrow function):
-// exercise5Array.forEach(
+console.log("Example 5 - One-line:");
+exercise5Array.forEach(n => console.log(n));
 
 // Your solution here (regular arrow function):
-// exercise5Array.forEach((
+console.log("Example 5 - Regualar:")
+exercise5Array.forEach((n) => {
+  console.log(n);
+});
 
 // Expected output: 4, 16, 36, 64 (each on a new line)
 

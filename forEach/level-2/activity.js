@@ -31,10 +31,14 @@ const exercise1Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// exercise1Array.forEach(
+console.log("Example 1 - One-line:");
+exercise1Array.forEach(name => console.log(`Hello, ${name}!`));
 
 // Your solution here (regular arrow function):
-// exercise1Array.forEach((
+console.log("Example 1 - Regular:");
+exercise1Array.forEach((name) => {
+  console.log(`Hello, ${name}!`);
+});
 
 // Expected output:
 // "Alice is 25 years old"
@@ -55,10 +59,14 @@ Write your solution using:
 const exercise2Array = [1, 2, 3, 4, 5];
 
 // Your solution here (one-line arrow function):
-// exercise2Array.forEach(
+console.log("Example 2 - One-line:");
+exercise2Array.forEach(n => console.log (n));
 
 // Your solution here (regular arrow function):
-// exercise2Array.forEach((
+console.log("Example 2 - Regular:");
+exercise2Array.forEach((n) => {
+  console.log(n);
+});
 
 // Expected output: 2, 4 (each on a new line)
 
@@ -79,10 +87,13 @@ Write your solution using:
 const exercise3Array = ["apple", "banana", "cherry", "date"];
 
 // Your solution here (one-line arrow function):
-// exercise3Array.forEach((
+console.log("Example 3 - One-line:");
+exercise3Array.forEach(name => console.log(`Hello, ${name}!`));
 
 // Your solution here (regular arrow function):
-// exercise3Array.forEach((
+exercise3Array.forEach((name) => {
+  console.log(`Hello, ${name}!`);
+});
 
 // Expected output:
 // "Index 0: apple"
@@ -106,10 +117,14 @@ const exercise4Array = [10, 20, 30, 40];
 let exercise4Result = "";
 
 // Your solution here (one-line arrow function):
-// exercise4Array.forEach((
+exercise4Array.forEach(n => sum += n);
+console.log("Example 4 - Regular sum:", sum);
 
 // Your solution here (regular arrow function):
-// exercise4Array.forEach((
+exercise4Array.forEach((n) => {
+  sum += n;
+});
+console.log("Example 4 - Regular sum:", sum);
 
 // Uncomment to test:
 // console.log("Exercise 4 - Result:", exercise4Result);
@@ -130,10 +145,14 @@ const exercise5Array = [5, 15, 25, 35];
 let exercise5Count = 0;
 
 // Your solution here (one-line arrow function):
-// exercise5Array.forEach(
+exercise5Array.forEach(n => sum += n);
+console.log("Example 3 - One-line sum:", sum);
 
 // Your solution here (regular arrow function):
-// exercise5Array.forEach((
+exercise5Array.forEach((n) => {
+  sum += n;
+});
+console.log("Example 5 - Regular sum:", sum);
 
 // Uncomment to test:
 // console.log("Exercise 5 - Count:", exercise5Count);

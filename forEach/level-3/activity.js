@@ -31,10 +31,14 @@ const exercise1Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// exercise1Array.forEach(
+console.log("Example 1 - One-line:");
+exercise1Array.forEach(name => console.log(`Hello, ${name}!`));
 
 // Your solution here (regular arrow function):
-// exercise1Array.forEach((
+console.log("Example 1 - Regular:");
+exercise1Array.forEach((name) => {
+  console.log(`Hello, ${name}!`);
+});
 
 // Expected output:
 // "Laptop: $2000 total"
@@ -55,10 +59,13 @@ Write your solution using:
 const exercise2Array = ["hello", "world", "javascript", "coding"];
 
 // Your solution here (one-line arrow function):
-// exercise2Array.forEach(
+console.log("Example 2 - One-line:");
+exercise2Array.forEach(name => console.log(`Hello, ${name}!`));
 
 // Your solution here (regular arrow function):
-// exercise2Array.forEach((
+exercise2Array.forEach((name) => {
+  console.log(`Hello, ${name}!`);
+});
 
 // Expected output: "javascript", "coding" (each on a new line)
 
@@ -78,10 +85,14 @@ const exercise3Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let exercise3Product = 1;
 
 // Your solution here (one-line arrow function):
-// exercise3Array.forEach(
+exercise3Array.forEach(n => sum += n);
+console.log("Example 3 - One-line sum:", sum);
 
 // Your solution here (regular arrow function):
-// exercise3Array.forEach((
+exercise3Array.forEach((n) => {
+  sum += n;
+});
+console.log("Example 3 - Regular sum", sum);
 
 // Uncomment to test:
 // console.log("Exercise 3 - Product:", exercise3Product);
@@ -103,10 +114,14 @@ Write your solution using:
 const exercise4Array = ["apple", "banana", "cherry"];
 
 // Your solution here (one-line arrow function):
-// exercise4Array.forEach(
+console.log("Example 4 - One-line:");
+exercise4Array.forEach(name => console.log(`Hello ${name}!`));
 
 // Your solution here (regular arrow function):
-// exercise4Array.forEach((
+console.log("Example 4 - Regular:");
+exercise4Array.forEach((name) => {
+  console.log(`Hello ${name}!`);
+});
 
 // Expected output: "elppa", "ananab", "yrrehc" (each on a new line)
 
@@ -125,10 +140,14 @@ const exercise5Array = [12, 45, 8, 23, 56, 9];
 let exercise5Max = exercise5Array[0]; // Start with first element
 
 // Your solution here (one-line arrow function):
-// exercise5Array.forEach(
+exercise5Array.forEach(n => sum += n);
+console.log("Example 5 - One-line sum:", sum);
 
 // Your solution here (regular arrow function):
-// exercise5Array.forEach((
+exercise5Array.forEach((n) => {
+  sum += n;
+});
+console.log("Example 5 - Regular sum:", sum);
 
 // Uncomment to test:
 // console.log("Exercise 5 - Maximum:", exercise5Max);

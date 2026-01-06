@@ -54,10 +54,14 @@ Write your solution using:
 const exercise2Array = [3, 7, 2, 9, 5];
 
 // Your solution here (one-line arrow function):
-// const exercise2Result1 = 
+const exercise2Result1 = exercise2Array.map(n => n * 2);
+console.log("Example 2 - One-line:", exercise2Result1);
 
 // Your solution here (regular arrow function):
-// const exercise2Result2 = 
+const exercise2Result2 = exercise2Array.map((n) => {
+  return n * 2;
+});
+console.log("Example 2 - Regular:", exercise2Result2);
 
 // Uncomment to test:
 // console.log("Exercise 2 - One-line:", exercise2Result1);
@@ -78,10 +82,14 @@ Write your solution using:
 const exercise3Array = [10, 25, 30, 45];
 
 // Your solution here (one-line arrow function):
-// const exercise3Result1 = 
+const exercise3Result1 = exercise3Result1.map(n => n * 2);
+console.log("Example 3 - One-line:", exercise3Result1);
 
 // Your solution here (regular arrow function):
-// const exercise3Result2 = 
+const exercise3Result2 = exercise3Result2.map((n) => {
+  return n * 2;
+});
+console.log("Example 3 - Regular:", exercise3Result1);
 
 // Uncomment to test:
 // console.log("Exercise 3 - One-line:", exercise3Result1);
