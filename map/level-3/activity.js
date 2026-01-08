@@ -30,10 +30,14 @@ const exercise1Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+const exercise1Result1 = exercise1Array.map(exercise1Array => exercise1Array.toUpperCase());
+console.log("Example 1 - One-line:", exercise1Result1);
 
 // Your solution here (regular arrow function):
-// const exercise1Result2 = 
+const exercise1Result2 = exercise1Array.map((exercise1Array) => {
+  return exercise1Array.toUpperCase();
+});
+console.log("Example 1 - Regular:", exercise1Result1);
 
 // Uncomment to test:
 // console.log("Exercise 1 - One-line:", exercise1Result1);
@@ -113,10 +117,14 @@ Write your solution using:
 const exercise4Array = ["hello world", "javascript is fun", "coding rocks"];
 
 // Your solution here (one-line arrow function):
-// const exercise4Result1 = 
+const exercise4Result1 = exercise4Array.map(exercise4Array => exercise4Array.toUpperCase());
+console.log("Example 4 - One-line:", exercise4Result1);
 
 // Your solution here (regular arrow function):
-// const exercise4Result2 = 
+const exercise4Result2 = exercise4Array.map((exercise4Array) => {
+  return exercise4Array.toUpperCase();
+});
+console.log("Example 4 - Regular:", exercise4Result2);
 
 // Uncomment to test:
 // console.log("Exercise 4 - One-line:", exercise4Result1);
@@ -147,10 +155,14 @@ const exercise5Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise5Result1 = 
+const exercise5Result1 = exercise5Array.map(n => n * 2);
+console.log("Example 5 - One-line:", exercise5Result1);
 
 // Your solution here (regular arrow function):
-// const exercise5Result2 = 
+const exercise5Result2 = exercise5Array.map((n) => {
+  return n * 2;
+});
+console.log("Example 5 - Regular:", exercise5Result2);
 
 // Uncomment to test:
 // console.log("Exercise 5 - One-line:", exercise5Result1);
